@@ -13,5 +13,6 @@ git add .
 git commit -m "feat: Add prompt"
 
 # Add a some text into the element.sh
+# Remember to add a shebang to element.sh
 # repeat git add . and git commit
 # total commits should be at least 5
