@@ -35,4 +35,6 @@ INSERT INTO elements (symbol, name, atomic_number) VALUES ('F', 'Fluorine', 9);
 INSERT INTO properties (atomic_number, atomic_mass, melting_point_celsius, boiling_point_celsius, type_id) VALUES (9, 18.998, -220, -188.1, 2);
 INSERT INTO elements (symbol, name, atomic_number) VALUES ('Ne', 'Fluorine', 10);
 INSERT INTO properties (atomic_number, atomic_mass, melting_point_celsius, boiling_point_celsius, type_id) VALUES (10, 20.18, -248.6, -246.1, 2);
+DELETE FROM properties WHERE atomic_number = 1000;
+DELETE FROM elements WHERE atomic_number = 1000;
 
