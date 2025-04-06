@@ -11,3 +11,7 @@ chmod +x element.sh
 # After adding the echo to element.sh
 git add .
 git commit -m "feat: Add prompt"
+
+# Add a some text into the element.sh
+# repeat git add . and git commit
+# total commits should be at least 5
